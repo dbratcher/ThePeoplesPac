@@ -16,5 +16,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func popUp(_ sender: Any) {
+        let alert = UIAlertController(title: "Congratulations!", message: "We took all of your money...", preferredStyle: .alert)
+        present(alert, animated: true, completion: nil)
+    }
 }
 
